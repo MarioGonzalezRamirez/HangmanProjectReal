@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman Project</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="stylesheet.css"/>
+
+</head>
+<body>
+<div id="flex"><h1>Hangman Project</h1></div>
+
+<div id="categories">
+    Categories:
+    <select id="hangmanCategories">
+        <option value="Animals"> Animals </option>
+        <option value="Office Supplies"> Office Supplies </option>
+        <option value="Slang"> Slang </option>
+        <option value="Musical Artists"> Musical Artists </option>
+        <option value="Countries"> Countries </option>
+    </select>
+</div>
+<div id="letterButtons">
+    <button onclick="guessLetter(this);play()" value="a" class="letterBtn">a</button>
+    <button onclick="guessLetter(this);play()" value="b" class="letterBtn">b</button>
+    <button onclick="guessLetter(this);play()" value="c" class="letterBtn">c</button>
+    <button onclick="guessLetter(this);play()" value="d" class="letterBtn">d</button>
+    <button onclick="guessLetter(this);play()" value="e" class="letterBtn">e</button>
+    <button onclick="guessLetter(this);play()" value="f" class="letterBtn">f</button>
+    <button onclick="guessLetter(this);play()" value="g" class="letterBtn">g</button>
+    <button onclick="guessLetter(this);play()" value="h" class="letterBtn">h</button>
+    <button onclick="guessLetter(this);play()"value="i" class="letterBtn">i</button>
+    <button onclick="guessLetter(this);play()" value="j" class="letterBtn">j</button>
+    <button onclick="guessLetter(this);play()"value="k" class="letterBtn">k</button>
+    <button onclick="guessLetter(this);play()" value="l" class="letterBtn">l</button>
+    <button onclick="guessLetter(this);play()" value="m" class="letterBtn">m</button>
+    <button onclick="guessLetter(this);play()" value="n" class="letterBtn">n</button>
+    <button onclick="guessLetter(this);play()" value="o" class="letterBtn">o</button>
+    <button onclick="guessLetter(this);play()" value="p" class="letterBtn">p</button>
+    <button onclick="guessLetter(this);play()" value="q" class="letterBtn">q</button>
+    <button onclick="guessLetter(this);play()" value="r" class="letterBtn">r</button>
+    <button onclick="guessLetter(this);play()" value="s" class="letterBtn">s</button>
+    <button onclick="guessLetter(this);play()" value="t" class="letterBtn">t</button>
+    <button onclick="guessLetter(this);play()" value="u" class="letterBtn">u</button>
+    <button onclick="guessLetter(this);play()" value="v" class="letterBtn">v</button>
+    <button onclick="guessLetter(this);play()" value="w" class="letterBtn">w</button>
+    <button onclick="guessLetter(this);play()" value="x" class="letterBtn">x</button>
+    <button onclick="guessLetter(this);play()" value="y" class="letterBtn">y</button>
+    <button onclick="guessLetter(this);play()" value="z" class="letterBtn">z</button>
+</div>
+<div id="playButton">
+    <button class="w3-button w3-black"  value="PLAY" onclick="start();play()">Play</button>
+</div>
+<div id="printLetters">
+</div>
+<div id="realGuess">Guess Letters:</div>
+<div id="guessedLetters">
+</div>
+<div id="guessNumber">Number of Guesses:</div>
+<div id="guesses">
+</div>
+<div id="Congratulation">
+</div>
+<img id="image">
+
+<audio id="audio" src="http://www.wavlist.com/soundfx/023/water-splash.wav" ></audio>
+
+
+</body>
+</html>
+
+
+
