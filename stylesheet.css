@@ -1,5 +1,5 @@
 h1 {
-    color: black;
+    color: white;
     font-size: 50px;
     text-align: center;
     font-family: Papyrus;
@@ -8,14 +8,13 @@ h1 {
 
 body {
     background-image: url(img/source.gif);
+    color: white;
 
 }
 #categories {
     margin: 25px;
-    width: 100%;
-    background-color: lightblue;
-    border-top:  10px cadetblue solid ;
-    border-bottom: 10px cadetblue solid;
+
+    text-align: center;
 }
 
 #letterButtons {
@@ -23,9 +22,7 @@ body {
     font-family: Papyrus;
 }
 
-#categories {
-    text-align: center;
-}
+
 #realGuess {
 }
 
